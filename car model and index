@@ -1,0 +1,4 @@
+print(f"Car Models and Print Index \n ")
+cars = {'Mercedes Benz': 'G-Wagon', 'Toyota' : 'Supra', 'Ferari': 'Maclaren'}
+for index, (key, value) in enumerate (cars.items()):
+    print(f"Index: {index}, Brand: {key}, Model: {value}")
